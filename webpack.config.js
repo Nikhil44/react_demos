@@ -10,8 +10,8 @@ var config = {
             filename: "bundle.js",
             publicPath: "/app/" 
         },
-        modules: {
-            loaders: [
+        module: {
+            rules: [
                 {
                     test: /\.js?/,
                     include: SRC_DIR,
